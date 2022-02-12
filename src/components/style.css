@@ -1,0 +1,159 @@
+/* @media screen and (min-width: 999px), screen and (max-width: 1010px){
+ .pp{
+   height: 20rem !important;
+ }
+} */
+@media only screen and (max-width: 500px) {
+    * {
+      font-size:50%;
+      
+    }
+    
+    
+    .footer{
+
+      display: flex;
+      justify-self: center;
+      justify-content: center;
+      height: 10% !important;
+      width: 65% !important;
+    }
+/* remove from media query later if it gives problems*/
+    .project{ 
+      width: 110%;
+      height: 300px;
+      padding-top: 10px;
+    }
+  }
+.contact{
+  
+  height: 300px !important;
+}
+  
+  #all{
+    overflow: hidden !important;
+    background-image: url("../yo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+
+  .text-container{
+    height: 40vh !important;
+    width: 100% !important;
+  }
+  .proj-container{
+    height: 50vh !important;
+    width: 100% !important;
+  }
+
+ 
+  .section::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  .section::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-image: linear-gradient(180deg, #d0368a 0%, #6584da 99%);
+    /* box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5); */
+    border: solid black 1px;
+  }
+  
+
+  .blurs{
+    background-color: rgba(0, 0, 0, 0.61);
+
+backdrop-filter: blur(5px);
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0px;
+  
+  }
+
+  .img{
+    background-color: white;
+  }
+
+  .project-image{
+    background-image: url("../rec.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 150% 100%;
+    
+  }
+
+  .project-image2{
+    background-image: url("../food3.PNG") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(0.95);
+  }
+  .project-image6{
+    background-image: url("https://user-images.githubusercontent.com/81489386/152793952-1d0e3b49-3527-4e4b-8322-405ac4667fa5.JPG") ;
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    filter: brightness(0.95);
+  }
+  .project-image3{
+    background-image: url("../movie.PNG") ;
+    background-repeat: no-repeat;
+    background-size: 180% 100%;
+  }
+
+  .project-image4{
+    background-image: url("../port.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    
+  }
+  .project-image5{
+    background-image: url("../soon.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+
+  .hide{
+    display: none;
+  }
+  
+.content:hover + .hide {
+ 
+  
+  display: flex !important;
+  
+
+}
+.hide:hover{
+  display: flex;
+ 
+}
+ 
+
+  .content:hover >p {
+    display: flex;
+    font-size: 15px;
+    backdrop-filter: blur(4px);
+    
+  }
+
+  .text{
+    display: none;
+  }
+
+  .contact{
+    width:107% !important;
+  }
+  
+.title{
+  font-family: 'Rajdhani', sans-serif;
+}
+.job{
+  font-family: 'Merriweather', serif;
+}
+
+.txt{
+  font-family: 'Azeret Mono', monospace;
+  font-family: 'Eczar', serif;
+}
